@@ -3,7 +3,7 @@
 A Raspberry Pi-controlled, 3d-printed pan-tilt camera mechanism that uses OpenCV to track a face and follow it laterally and vertically.
 
 Hardware setup:
-* First, connect the signal wires coming off the servo motors (middle wire, orange) to the Raspberry Pi GPIO pins (13, 5) as in this diagram: https://www.raspberrypi.org/documentation/usage/gpio/
+* First, connect the signal wires coming off the servo motors (there are two -- one for the pan motion and one for tilting on the 3D printed device) (middle wire, orange) to the Raspberry Pi GPIO pins (13, 5) as in this diagram: https://www.raspberrypi.org/documentation/usage/gpio/
 * Connect the grounded wires of the servos, AND one of the Raspberry Pi ground pins from the diagram linked above to ground on your breadboard.
 * Connect the power signal wires coming off the servo motors (edge wire, red) to power on your breadboard. 
 * Insert the camera module into the pi: the PiCamera is a small camera with a white thin strip cable attached. This cable slides right into the Pi's camera slot on the board where it says 'Camera'. Don't force the cable in; to insert it, you'll need to release the black anchors on the sides of the camera insertion slot, gently push the cable in, and then press the anchors down to secure the camera. The metal ends of the cable should be (almost) fully inserted and not visible once the black anchors snap back into place. 
